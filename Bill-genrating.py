@@ -2,7 +2,7 @@ import time as t
 import mysql.connector
 
 
-def shop2():
+def bill():
     con = mysql.connector.connect(
     host="localhost",
     user="root",
@@ -37,4 +37,5 @@ def shop2():
     cur.close()
     con.close()
     
-shop2()
+
+bill()
